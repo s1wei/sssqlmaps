@@ -13,3 +13,5 @@ SQLMap 是一个自动化的SQL注入工具，其主要功能是扫描、发现�
 
 
 result = subprocess.run(['python', 'sqlmap.py', '-u', url] + params.split() + ['--batch'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+官网：https://www.denceun.com/archives/277
